@@ -1,0 +1,43 @@
+[
+  {
+    "experiment_name": "test_chatgpt_pd",
+    "game_type": "prisoners_dilemma",
+    "player1_model": "ChatGPT-4",
+    "player2_model": "baseline",
+    "timestamp": "2025-07-11T01:23:49.472227",
+    "rounds": [
+      {
+        "round": 0,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 1,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 2,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 3,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 4,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      }
+    ],
+    "completed": true,
+    "total_rounds": 5
+  }
+]

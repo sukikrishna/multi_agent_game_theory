@@ -1,0 +1,133 @@
+[
+  {
+    "experiment_name": "test_pris_20rounds",
+    "game_type": "prisoners_dilemma",
+    "player1_model": "ChatGPT-4",
+    "player2_model": "baseline",
+    "timestamp": "2025-07-11T11:43:09.380012",
+    "rounds": [
+      {
+        "round": 0,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 1,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 2,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 3,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 4,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 5,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 6,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 7,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 8,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 9,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 10,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 11,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 12,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 13,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 14,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 15,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 16,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 17,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 18,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 19,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      }
+    ],
+    "completed": true,
+    "total_rounds": 20
+  }
+]

@@ -1,0 +1,165 @@
+{
+  "prisoners_dilemma": [],
+  "battle_of_sexes": [],
+  "colonel_blotto": [
+    {
+      "session_info": {
+        "player1_strategy": "ChatGPT-4",
+        "player2_strategy": "baseline",
+        "num_rounds": 5,
+        "game_type": "colonel_blotto"
+      },
+      "results": [
+        {
+          "round": 0,
+          "p1_action": [
+            35,
+            30,
+            25,
+            15,
+            10,
+            5
+          ],
+          "p2_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 1,
+          "p1_action": [
+            0,
+            0,
+            35,
+            35,
+            25,
+            25
+          ],
+          "p2_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p1_reward": 1,
+          "p2_reward": -1
+        },
+        {
+          "round": 2,
+          "p1_action": [
+            25,
+            25,
+            0,
+            0,
+            35,
+            35
+          ],
+          "p2_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p1_reward": 1,
+          "p2_reward": -1
+        },
+        {
+          "round": 3,
+          "p1_action": [
+            30,
+            30,
+            30,
+            0,
+            15,
+            15
+          ],
+          "p2_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 4,
+          "p1_action": [
+            0,
+            40,
+            0,
+            40,
+            0,
+            40
+          ],
+          "p2_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p1_reward": 0,
+          "p2_reward": 0
+        }
+      ],
+      "metrics": {
+        "player1": {
+          "total_score": 2,
+          "coordination_rate": 0.0,
+          "exploitation_rate": 0.0,
+          "nash_deviation": 0.3333333333333333,
+          "regret": 0.09999999999999998,
+          "game_specific": {
+            "allocation_entropy_p1": 1.4070085611686896,
+            "allocation_entropy_p2": 1.791759468628055,
+            "allocation_concentration_p1": 0.3333333333333333,
+            "allocation_concentration_p2": 0.0
+          }
+        },
+        "player2": {
+          "total_score": -2,
+          "coordination_rate": 0.0,
+          "exploitation_rate": 0.4,
+          "nash_deviation": 0.3333333333333333,
+          "regret": 0.5,
+          "game_specific": {
+            "allocation_entropy_p1": 1.4070085611686896,
+            "allocation_entropy_p2": 1.791759468628055,
+            "allocation_concentration_p1": 0.3333333333333333,
+            "allocation_concentration_p2": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "colonel_blotto": {
+      "num_sessions": 1,
+      "avg_score": 2,
+      "avg_coordination_rate": 0.0,
+      "avg_nash_deviation": 0.3333333333333333,
+      "avg_regret": 0.09999999999999998,
+      "score_std": 0
+    },
+    "overall": {
+      "overall_score": 2,
+      "overall_coordination_rate": 0.0,
+      "overall_nash_deviation": 0.3333333333333333,
+      "games_evaluated": 1
+    }
+  }
+}

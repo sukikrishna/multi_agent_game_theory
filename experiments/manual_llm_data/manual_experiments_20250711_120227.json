@@ -1,0 +1,113 @@
+[
+  {
+    "experiment_name": "test_blotto",
+    "game_type": "colonel_blotto",
+    "player1_model": "ChatGPT-4",
+    "player2_model": "baseline",
+    "timestamp": "2025-07-11T12:00:42.969978",
+    "rounds": [
+      {
+        "round": 0,
+        "player_action": [
+          35,
+          30,
+          25,
+          15,
+          10,
+          5
+        ],
+        "opponent_action": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "llm_response": "[35, 30, 25, 15, 10, 5]"
+      },
+      {
+        "round": 1,
+        "player_action": [
+          0,
+          0,
+          35,
+          35,
+          25,
+          25
+        ],
+        "opponent_action": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "llm_response": "[0, 0, 35, 35, 25, 25]"
+      },
+      {
+        "round": 2,
+        "player_action": [
+          25,
+          25,
+          0,
+          0,
+          35,
+          35
+        ],
+        "opponent_action": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "llm_response": "[25, 25, 0, 0, 35, 35]"
+      },
+      {
+        "round": 3,
+        "player_action": [
+          30,
+          30,
+          30,
+          0,
+          15,
+          15
+        ],
+        "opponent_action": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "llm_response": "[30, 30, 30, 0, 15, 15]"
+      },
+      {
+        "round": 4,
+        "player_action": [
+          0,
+          40,
+          0,
+          40,
+          0,
+          40
+        ],
+        "opponent_action": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "llm_response": "[0, 40, 0, 40, 0, 40]"
+      }
+    ],
+    "completed": true,
+    "total_rounds": 5
+  }
+]

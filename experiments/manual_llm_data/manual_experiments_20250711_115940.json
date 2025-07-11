@@ -1,0 +1,73 @@
+[
+  {
+    "experiment_name": "battle_10_rounds",
+    "game_type": "battle_of_sexes",
+    "player1_model": "ChatGPT-4",
+    "player2_model": "baseline",
+    "timestamp": "2025-07-11T11:56:06.846075",
+    "rounds": [
+      {
+        "round": 0,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 1,
+        "player_action": 0,
+        "opponent_action": 1,
+        "llm_response": "0"
+      },
+      {
+        "round": 2,
+        "player_action": 1,
+        "opponent_action": 0,
+        "llm_response": "1"
+      },
+      {
+        "round": 3,
+        "player_action": 0,
+        "opponent_action": 1,
+        "llm_response": "0"
+      },
+      {
+        "round": 4,
+        "player_action": 1,
+        "opponent_action": 0,
+        "llm_response": "1"
+      },
+      {
+        "round": 5,
+        "player_action": 0,
+        "opponent_action": 1,
+        "llm_response": "0"
+      },
+      {
+        "round": 6,
+        "player_action": 1,
+        "opponent_action": 0,
+        "llm_response": "1"
+      },
+      {
+        "round": 7,
+        "player_action": 0,
+        "opponent_action": 1,
+        "llm_response": "0"
+      },
+      {
+        "round": 8,
+        "player_action": 1,
+        "opponent_action": 0,
+        "llm_response": "1"
+      },
+      {
+        "round": 9,
+        "player_action": 0,
+        "opponent_action": 1,
+        "llm_response": "0"
+      }
+    ],
+    "completed": true,
+    "total_rounds": 10
+  }
+]

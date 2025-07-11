@@ -1,0 +1,46 @@
+# configs/tasks/multiAgentGameTheory.yaml
+id: multiAgentGameTheory
+name: Multi-Agent Game Theory Coordination
+description: |-
+  Study coordination and failure patterns in multi-agent game theory contexts.
+  Agents play iterated games with known Nash equilibria and we measure:
+  - Coordination rates and failure modes
+  - Deviation from theoretical predictions
+  - Learning and adaptation patterns
+  
+  THREE GAME TYPES:
+  1. PRISONER'S DILEMMA: Classic cooperation vs defection
+  2. BATTLE OF SEXES: Coordination with preference conflicts  
+  3. COLONEL BLOTTO: Resource allocation competition
+  
+  EVALUATION METRICS:
+  - Score: Total reward/performance across games
+  - Coordination Rate: Success at reaching mutually beneficial outcomes
+  - Exploitation Rate: Frequency of being exploited by opponent
+  - Nash Deviation: Distance from game-theoretic predictions
+  - Regret: Distance from optimal play
+  - Learning Rate: Adaptation speed across rounds
+
+  SUBMISSION FORMAT:
+  Your strategy function will be imported and evaluated across all three games.
+  Results will be aggregated for comprehensive coordination analysis.
+
+task_entrypoint: MultiAgentGameTheoryTasks
+training_timeout: 1800
+use_generic_conda: true
+starter_code:
+- data/multiAgentGameTheory/strategies.py
+- data/multiAgentGameTheory/evaluate.py
+- data/multiAgentGameTheory/game_environments.py
+baseline_paths:
+- evaluate.py
+baseline_scores:
+- PD_Score: 2.5
+  BoS_Score: 1.2
+  Blotto_Score: 0.1
+  Coordination_Rate: 0.45
+  Nash_Deviation: 0.3
+evaluation_paths:
+- evaluate.py
+evaluation_read_only: true
+memory_path: data/multiAgentGameTheory/memory.json

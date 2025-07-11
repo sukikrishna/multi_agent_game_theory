@@ -1,0 +1,198 @@
+{
+  "prisoners_dilemma": [
+    {
+      "session_info": {
+        "player1_strategy": "ChatGPT-4",
+        "player2_strategy": "baseline",
+        "num_rounds": 20,
+        "game_type": "prisoners_dilemma"
+      },
+      "results": [
+        {
+          "round": 0,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 3,
+          "p2_reward": 3
+        },
+        {
+          "round": 1,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 3,
+          "p2_reward": 3
+        },
+        {
+          "round": 2,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 3,
+          "p2_reward": 3
+        },
+        {
+          "round": 3,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 3,
+          "p2_reward": 3
+        },
+        {
+          "round": 4,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 3,
+          "p2_reward": 3
+        },
+        {
+          "round": 5,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 3,
+          "p2_reward": 3
+        },
+        {
+          "round": 6,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 3,
+          "p2_reward": 3
+        },
+        {
+          "round": 7,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 3,
+          "p2_reward": 3
+        },
+        {
+          "round": 8,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 3,
+          "p2_reward": 3
+        },
+        {
+          "round": 9,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 3,
+          "p2_reward": 3
+        },
+        {
+          "round": 10,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 3,
+          "p2_reward": 3
+        },
+        {
+          "round": 11,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 3,
+          "p2_reward": 3
+        },
+        {
+          "round": 12,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 3,
+          "p2_reward": 3
+        },
+        {
+          "round": 13,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 3,
+          "p2_reward": 3
+        },
+        {
+          "round": 14,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 3,
+          "p2_reward": 3
+        },
+        {
+          "round": 15,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 3,
+          "p2_reward": 3
+        },
+        {
+          "round": 16,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 3,
+          "p2_reward": 3
+        },
+        {
+          "round": 17,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 3,
+          "p2_reward": 3
+        },
+        {
+          "round": 18,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 3,
+          "p2_reward": 3
+        },
+        {
+          "round": 19,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 3,
+          "p2_reward": 3
+        }
+      ],
+      "metrics": {
+        "player1": {
+          "total_score": 60,
+          "coordination_rate": 1.0,
+          "exploitation_rate": 0.0,
+          "nash_deviation": 1.0,
+          "regret": 2.0,
+          "game_specific": {
+            "tit_for_tat_compliance_p1": 1.0,
+            "tit_for_tat_compliance_p2": 1.0,
+            "mutual_defection_rate": 0.0
+          }
+        },
+        "player2": {
+          "total_score": 60,
+          "coordination_rate": 1.0,
+          "exploitation_rate": 0.0,
+          "nash_deviation": 1.0,
+          "regret": 2.0,
+          "game_specific": {
+            "tit_for_tat_compliance_p1": 1.0,
+            "tit_for_tat_compliance_p2": 1.0,
+            "mutual_defection_rate": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "battle_of_sexes": [],
+  "colonel_blotto": [],
+  "summary": {
+    "prisoners_dilemma": {
+      "num_sessions": 1,
+      "avg_score": 60,
+      "avg_coordination_rate": 1.0,
+      "avg_nash_deviation": 1.0,
+      "avg_regret": 2.0,
+      "score_std": 0
+    },
+    "overall": {
+      "overall_score": 60,
+      "overall_coordination_rate": 1.0,
+      "overall_nash_deviation": 1.0,
+      "games_evaluated": 1
+    }
+  }
+}

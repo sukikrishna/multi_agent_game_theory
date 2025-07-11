@@ -1,0 +1,119 @@
+{
+  "prisoners_dilemma": [],
+  "battle_of_sexes": [],
+  "colonel_blotto": [
+    {
+      "timestamp": "2025-07-11T12:00:42.969978",
+      "player1_strategy": "ChatGPT-4",
+      "player2_strategy": "baseline",
+      "num_rounds": 5,
+      "results": [
+        {
+          "round": 0,
+          "p1_action": [
+            35,
+            30,
+            25,
+            15,
+            10,
+            5
+          ],
+          "p2_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 1,
+          "p1_action": [
+            0,
+            0,
+            35,
+            35,
+            25,
+            25
+          ],
+          "p2_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 2,
+          "p1_action": [
+            25,
+            25,
+            0,
+            0,
+            35,
+            35
+          ],
+          "p2_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 3,
+          "p1_action": [
+            30,
+            30,
+            30,
+            0,
+            15,
+            15
+          ],
+          "p2_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 4,
+          "p1_action": [
+            0,
+            40,
+            0,
+            40,
+            0,
+            40
+          ],
+          "p2_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p1_reward": 0,
+          "p2_reward": 0
+        }
+      ]
+    }
+  ]
+}
