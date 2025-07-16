@@ -1,0 +1,84 @@
+{
+  "prisoners_dilemma": [
+    {
+      "timestamp": "2025-07-16T12:55:39.295831",
+      "player1_strategy": "gpt-4_competitive",
+      "player2_strategy": "baseline",
+      "num_rounds": 10,
+      "results": [
+        {
+          "round": 0,
+          "p1_action": 1,
+          "p2_action": 0,
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 1,
+          "p1_action": 1,
+          "p2_action": 1,
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 2,
+          "p1_action": 1,
+          "p2_action": 1,
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 3,
+          "p1_action": 1,
+          "p2_action": 1,
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 4,
+          "p1_action": 1,
+          "p2_action": 1,
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 5,
+          "p1_action": 1,
+          "p2_action": 1,
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 6,
+          "p1_action": 1,
+          "p2_action": 1,
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 7,
+          "p1_action": 1,
+          "p2_action": 1,
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 8,
+          "p1_action": 1,
+          "p2_action": 1,
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 9,
+          "p1_action": 1,
+          "p2_action": 1,
+          "p1_reward": 0,
+          "p2_reward": 0
+        }
+      ]
+    }
+  ],
+  "battle_of_sexes": [],
+  "colonel_blotto": []
+}

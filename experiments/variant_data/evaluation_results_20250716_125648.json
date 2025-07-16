@@ -1,0 +1,128 @@
+{
+  "prisoners_dilemma": [],
+  "battle_of_sexes": [
+    {
+      "session_info": {
+        "player1_strategy": "gpt-4_standard",
+        "player2_strategy": "baseline",
+        "num_rounds": 10,
+        "game_type": "battle_of_sexes"
+      },
+      "results": [
+        {
+          "round": 0,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 2,
+          "p2_reward": 1
+        },
+        {
+          "round": 1,
+          "p1_action": 0,
+          "p2_action": 1,
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 2,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 2,
+          "p2_reward": 1
+        },
+        {
+          "round": 3,
+          "p1_action": 0,
+          "p2_action": 1,
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 4,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 2,
+          "p2_reward": 1
+        },
+        {
+          "round": 5,
+          "p1_action": 0,
+          "p2_action": 1,
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 6,
+          "p1_action": 1,
+          "p2_action": 0,
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 7,
+          "p1_action": 0,
+          "p2_action": 1,
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 8,
+          "p1_action": 0,
+          "p2_action": 0,
+          "p1_reward": 2,
+          "p2_reward": 1
+        },
+        {
+          "round": 9,
+          "p1_action": 0,
+          "p2_action": 1,
+          "p1_reward": 0,
+          "p2_reward": 0
+        }
+      ],
+      "metrics": {
+        "player1": {
+          "total_score": 8,
+          "coordination_rate": 0.4,
+          "exploitation_rate": 0.6,
+          "nash_deviation": 0.20000000000000004,
+          "regret": 1.2,
+          "game_specific": {
+            "p1_preference_success_rate": 0.4,
+            "p2_preference_success_rate": 0.0,
+            "fairness_balance": 0.4
+          }
+        },
+        "player2": {
+          "total_score": 4,
+          "coordination_rate": 0.4,
+          "exploitation_rate": 0.6,
+          "nash_deviation": 0.20000000000000004,
+          "regret": 1.6,
+          "game_specific": {
+            "p1_preference_success_rate": 0.4,
+            "p2_preference_success_rate": 0.0,
+            "fairness_balance": 0.4
+          }
+        }
+      }
+    }
+  ],
+  "colonel_blotto": [],
+  "summary": {
+    "battle_of_sexes": {
+      "num_sessions": 1,
+      "avg_score": 8,
+      "avg_coordination_rate": 0.4,
+      "avg_nash_deviation": 0.20000000000000004,
+      "avg_regret": 1.2,
+      "score_std": 0
+    },
+    "overall": {
+      "overall_score": 8,
+      "overall_coordination_rate": 0.4,
+      "overall_nash_deviation": 0.20000000000000004,
+      "games_evaluated": 1
+    }
+  }
+}

@@ -1,0 +1,373 @@
+[
+  {
+    "experiment_name": "api_test_prisoners_dilemma",
+    "game_type": "prisoners_dilemma",
+    "player1_model": "gpt-4",
+    "player2_model": "baseline",
+    "num_rounds": 10,
+    "timestamp": "2025-07-16T12:53:02.338636",
+    "rounds": [
+      {
+        "round": 0,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 1,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 2,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 3,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 4,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 5,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 6,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 7,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 8,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 9,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      }
+    ],
+    "completed": true,
+    "api_config": {
+      "provider": "openai",
+      "model": "gpt-4",
+      "temperature": 0.7
+    },
+    "total_rounds": 10
+  },
+  {
+    "experiment_name": "api_test_battle_of_sexes",
+    "game_type": "battle_of_sexes",
+    "player1_model": "gpt-4",
+    "player2_model": "baseline",
+    "num_rounds": 10,
+    "timestamp": "2025-07-16T12:53:20.693957",
+    "rounds": [
+      {
+        "round": 0,
+        "player_action": 0,
+        "opponent_action": 0,
+        "llm_response": "0"
+      },
+      {
+        "round": 1,
+        "player_action": 0,
+        "opponent_action": 1,
+        "llm_response": "0"
+      },
+      {
+        "round": 2,
+        "player_action": 1,
+        "opponent_action": 0,
+        "llm_response": "1"
+      },
+      {
+        "round": 3,
+        "player_action": 0,
+        "opponent_action": 1,
+        "llm_response": "0"
+      },
+      {
+        "round": 4,
+        "player_action": 1,
+        "opponent_action": 0,
+        "llm_response": "1"
+      },
+      {
+        "round": 5,
+        "player_action": 0,
+        "opponent_action": 1,
+        "llm_response": "0"
+      },
+      {
+        "round": 6,
+        "player_action": 1,
+        "opponent_action": 0,
+        "llm_response": "1"
+      },
+      {
+        "round": 7,
+        "player_action": 0,
+        "opponent_action": 1,
+        "llm_response": "0"
+      },
+      {
+        "round": 8,
+        "player_action": 1,
+        "opponent_action": 0,
+        "llm_response": "1"
+      },
+      {
+        "round": 9,
+        "player_action": 0,
+        "opponent_action": 1,
+        "llm_response": "0"
+      }
+    ],
+    "completed": true,
+    "api_config": {
+      "provider": "openai",
+      "model": "gpt-4",
+      "temperature": 0.7
+    },
+    "total_rounds": 10
+  },
+  {
+    "experiment_name": "api_test_colonel_blotto",
+    "game_type": "colonel_blotto",
+    "player1_model": "gpt-4",
+    "player2_model": "baseline",
+    "num_rounds": 10,
+    "timestamp": "2025-07-16T12:53:36.687063",
+    "rounds": [
+      {
+        "round": 0,
+        "player_action": [
+          30,
+          30,
+          20,
+          20,
+          10,
+          10
+        ],
+        "opponent_action": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "llm_response": "[30, 30, 20, 20, 10, 10]"
+      },
+      {
+        "round": 1,
+        "player_action": [
+          25,
+          25,
+          25,
+          20,
+          15,
+          10
+        ],
+        "opponent_action": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "llm_response": "[25,25,25,20,15,10]"
+      },
+      {
+        "round": 2,
+        "player_action": [
+          30,
+          30,
+          30,
+          10,
+          10,
+          10
+        ],
+        "opponent_action": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "llm_response": "[30, 30, 30, 10, 10, 10]"
+      },
+      {
+        "round": 3,
+        "player_action": [
+          40,
+          40,
+          20,
+          10,
+          5,
+          5
+        ],
+        "opponent_action": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "llm_response": "[40, 40, 20, 10, 5, 5]"
+      },
+      {
+        "round": 4,
+        "player_action": [
+          50,
+          30,
+          20,
+          10,
+          5,
+          5
+        ],
+        "opponent_action": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "llm_response": "[50, 30, 20, 10, 5, 5]"
+      },
+      {
+        "round": 5,
+        "player_action": [
+          60,
+          20,
+          20,
+          10,
+          5,
+          5
+        ],
+        "opponent_action": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "llm_response": "[60, 20, 20, 10, 5, 5]"
+      },
+      {
+        "round": 6,
+        "player_action": [
+          30,
+          30,
+          30,
+          10,
+          10,
+          10
+        ],
+        "opponent_action": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "llm_response": "[30, 30, 30, 10, 10, 10]"
+      },
+      {
+        "round": 7,
+        "player_action": [
+          40,
+          30,
+          20,
+          15,
+          10,
+          5
+        ],
+        "opponent_action": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "llm_response": "[40, 30, 20, 15, 10, 5]"
+      },
+      {
+        "round": 8,
+        "player_action": [
+          30,
+          30,
+          20,
+          20,
+          10,
+          10
+        ],
+        "opponent_action": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "llm_response": "[30, 30, 20, 20, 10, 10]"
+      },
+      {
+        "round": 9,
+        "player_action": [
+          35,
+          35,
+          15,
+          15,
+          10,
+          10
+        ],
+        "opponent_action": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "llm_response": "[35, 35, 15, 15, 10, 10]"
+      }
+    ],
+    "completed": true,
+    "api_config": {
+      "provider": "openai",
+      "model": "gpt-4",
+      "temperature": 0.7
+    },
+    "total_rounds": 10
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "experiment_name": "prompt_study_prisoners_dilemma_competitive",
+    "game_type": "prisoners_dilemma",
+    "player1_model": "gpt-4_competitive",
+    "player2_model": "baseline",
+    "num_rounds": 10,
+    "timestamp": "2025-07-16T12:55:39.295831",
+    "rounds": [
+      {
+        "round": 0,
+        "player_action": 1,
+        "opponent_action": 0,
+        "llm_response": "1"
+      },
+      {
+        "round": 1,
+        "player_action": 1,
+        "opponent_action": 1,
+        "llm_response": "1"
+      },
+      {
+        "round": 2,
+        "player_action": 1,
+        "opponent_action": 1,
+        "llm_response": "1"
+      },
+      {
+        "round": 3,
+        "player_action": 1,
+        "opponent_action": 1,
+        "llm_response": "1"
+      },
+      {
+        "round": 4,
+        "player_action": 1,
+        "opponent_action": 1,
+        "llm_response": "1"
+      },
+      {
+        "round": 5,
+        "player_action": 1,
+        "opponent_action": 1,
+        "llm_response": "1"
+      },
+      {
+        "round": 6,
+        "player_action": 1,
+        "opponent_action": 1,
+        "llm_response": "1"
+      },
+      {
+        "round": 7,
+        "player_action": 1,
+        "opponent_action": 1,
+        "llm_response": "1"
+      },
+      {
+        "round": 8,
+        "player_action": 1,
+        "opponent_action": 1,
+        "llm_response": "1"
+      },
+      {
+        "round": 9,
+        "player_action": 1,
+        "opponent_action": 1,
+        "llm_response": "1"
+      }
+    ],
+    "completed": true,
+    "api_config": {
+      "provider": "openai",
+      "model": "gpt-4",
+      "temperature": 0.7
+    },
+    "total_rounds": 10
+  }
+]

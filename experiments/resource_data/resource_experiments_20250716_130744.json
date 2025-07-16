@@ -1,0 +1,1229 @@
+[
+  {
+    "game_type": "fishing",
+    "model_name": "gpt-4",
+    "num_rounds_planned": 20,
+    "num_rounds_played": 8,
+    "round_results": [
+      {
+        "round_number": 0,
+        "resource_state_before": {
+          "current_amount": 500.0,
+          "growth_rate": 0.2,
+          "carrying_capacity": 500.0,
+          "depletion_threshold": 50.0,
+          "rounds_survived": 0,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 100.0,
+            "round_number": 0
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 25.0,
+            "round_number": 0
+          }
+        ],
+        "individual_rewards": [
+          120.0,
+          30.0
+        ],
+        "resource_state_after": {
+          "current_amount": 393.75,
+          "growth_rate": 0.2,
+          "carrying_capacity": 500.0,
+          "depletion_threshold": 50.0,
+          "rounds_survived": 1,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.7875
+      },
+      {
+        "round_number": 1,
+        "resource_state_before": {
+          "current_amount": 393.75,
+          "growth_rate": 0.2,
+          "carrying_capacity": 500.0,
+          "depletion_threshold": 50.0,
+          "rounds_survived": 1,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 70.0,
+            "round_number": 1
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 25.0,
+            "round_number": 1
+          }
+        ],
+        "individual_rewards": [
+          84.0,
+          30.0
+        ],
+        "resource_state_after": {
+          "current_amount": 322.799375,
+          "growth_rate": 0.2,
+          "carrying_capacity": 500.0,
+          "depletion_threshold": 50.0,
+          "rounds_survived": 2,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.64559875
+      },
+      {
+        "round_number": 2,
+        "resource_state_before": {
+          "current_amount": 322.799375,
+          "growth_rate": 0.2,
+          "carrying_capacity": 500.0,
+          "depletion_threshold": 50.0,
+          "rounds_survived": 2,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 60.0,
+            "round_number": 2
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 25.0,
+            "round_number": 2
+          }
+        ],
+        "individual_rewards": [
+          60.0,
+          25.0
+        ],
+        "resource_state_after": {
+          "current_amount": 262.73983289984375,
+          "growth_rate": 0.2,
+          "carrying_capacity": 500.0,
+          "depletion_threshold": 50.0,
+          "rounds_survived": 3,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.5254796657996875
+      },
+      {
+        "round_number": 3,
+        "resource_state_before": {
+          "current_amount": 262.73983289984375,
+          "growth_rate": 0.2,
+          "carrying_capacity": 500.0,
+          "depletion_threshold": 50.0,
+          "rounds_survived": 3,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 55.0,
+            "round_number": 3
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 25.0,
+            "round_number": 3
+          }
+        ],
+        "individual_rewards": [
+          55.0,
+          25.0
+        ],
+        "resource_state_after": {
+          "current_amount": 205.93026086850736,
+          "growth_rate": 0.2,
+          "carrying_capacity": 500.0,
+          "depletion_threshold": 50.0,
+          "rounds_survived": 4,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.4118605217370147
+      },
+      {
+        "round_number": 4,
+        "resource_state_before": {
+          "current_amount": 205.93026086850736,
+          "growth_rate": 0.2,
+          "carrying_capacity": 500.0,
+          "depletion_threshold": 50.0,
+          "rounds_survived": 4,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 45.0,
+            "round_number": 4
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 25.0,
+            "round_number": 4
+          }
+        ],
+        "individual_rewards": [
+          45.0,
+          25.0
+        ],
+        "resource_state_after": {
+          "current_amount": 155.72549871429663,
+          "growth_rate": 0.2,
+          "carrying_capacity": 500.0,
+          "depletion_threshold": 50.0,
+          "rounds_survived": 5,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.3114509974285933
+      },
+      {
+        "round_number": 5,
+        "resource_state_before": {
+          "current_amount": 155.72549871429663,
+          "growth_rate": 0.2,
+          "carrying_capacity": 500.0,
+          "depletion_threshold": 50.0,
+          "rounds_survived": 5,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 40.0,
+            "round_number": 5
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 25.0,
+            "round_number": 5
+          }
+        ],
+        "individual_rewards": [
+          40.0,
+          25.0
+        ],
+        "resource_state_after": {
+          "current_amount": 105.57815201037283,
+          "growth_rate": 0.2,
+          "carrying_capacity": 500.0,
+          "depletion_threshold": 50.0,
+          "rounds_survived": 6,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.21115630402074567
+      },
+      {
+        "round_number": 6,
+        "resource_state_before": {
+          "current_amount": 105.57815201037283,
+          "growth_rate": 0.2,
+          "carrying_capacity": 500.0,
+          "depletion_threshold": 50.0,
+          "rounds_survived": 6,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 30.0,
+            "round_number": 6
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 25.0,
+            "round_number": 6
+          }
+        ],
+        "individual_rewards": [
+          24.0,
+          20.0
+        ],
+        "resource_state_after": {
+          "current_amount": 59.67052262813365,
+          "growth_rate": 0.2,
+          "carrying_capacity": 500.0,
+          "depletion_threshold": 50.0,
+          "rounds_survived": 7,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.11934104525626729
+      },
+      {
+        "round_number": 7,
+        "resource_state_before": {
+          "current_amount": 59.67052262813365,
+          "growth_rate": 0.2,
+          "carrying_capacity": 500.0,
+          "depletion_threshold": 50.0,
+          "rounds_survived": 7,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 15.0,
+            "round_number": 7
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 25.0,
+            "round_number": 7
+          }
+        ],
+        "individual_rewards": [
+          12.0,
+          20.0
+        ],
+        "resource_state_after": {
+          "current_amount": 23.44985536957481,
+          "growth_rate": 0.2,
+          "carrying_capacity": 500.0,
+          "depletion_threshold": 50.0,
+          "rounds_survived": 8,
+          "is_depleted": true
+        },
+        "sustainability_score": 0.04689971073914962
+      }
+    ],
+    "final_metrics": {
+      "survival_rate": 0.4,
+      "rounds_survived": 8,
+      "final_resource_level": 23.44985536957481,
+      "average_sustainability": 0.3824108743726823,
+      "extraction_fairness": 0.6504065052019301,
+      "total_rewards": [
+        440.0,
+        200.0
+      ],
+      "total_extractions": [
+        415.0,
+        200.0
+      ],
+      "resource_depleted": true
+    },
+    "timestamp": "2025-07-16 13:07:07.747423"
+  },
+  {
+    "game_type": "pasture",
+    "model_name": "gpt-4",
+    "num_rounds_planned": 20,
+    "num_rounds_played": 20,
+    "round_results": [
+      {
+        "round_number": 0,
+        "resource_state_before": {
+          "current_amount": 1000.0,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 0,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 25.0,
+            "round_number": 0
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 15.0,
+            "round_number": 0
+          }
+        ],
+        "individual_rewards": [
+          125.0,
+          75.0
+        ],
+        "resource_state_after": {
+          "current_amount": 972.6464,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 1,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.9726464
+      },
+      {
+        "round_number": 1,
+        "resource_state_before": {
+          "current_amount": 972.6464,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 1,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 25.0,
+            "round_number": 1
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 15.0,
+            "round_number": 1
+          }
+        ],
+        "individual_rewards": [
+          121.5808,
+          72.94848
+        ],
+        "resource_state_after": {
+          "current_amount": 949.021012525056,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 2,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.949021012525056
+      },
+      {
+        "round_number": 2,
+        "resource_state_before": {
+          "current_amount": 949.021012525056,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 2,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 25.0,
+            "round_number": 2
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 15.0,
+            "round_number": 2
+          }
+        ],
+        "individual_rewards": [
+          118.627626565632,
+          71.1765759393792
+        ],
+        "resource_state_after": {
+          "current_amount": 928.4350337919426,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 3,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.9284350337919426
+      },
+      {
+        "round_number": 3,
+        "resource_state_before": {
+          "current_amount": 928.4350337919426,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 3,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 25.0,
+            "round_number": 3
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 15.0,
+            "round_number": 3
+          }
+        ],
+        "individual_rewards": [
+          116.05437922399283,
+          69.6326275343957
+        ],
+        "resource_state_after": {
+          "current_amount": 910.3609233892998,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 4,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.9103609233892999
+      },
+      {
+        "round_number": 4,
+        "resource_state_before": {
+          "current_amount": 910.3609233892998,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 4,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 25.0,
+            "round_number": 4
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 15.0,
+            "round_number": 4
+          }
+        ],
+        "individual_rewards": [
+          113.79511542366248,
+          68.27706925419749
+        ],
+        "resource_state_after": {
+          "current_amount": 894.3873751370993,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 5,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.8943873751370993
+      },
+      {
+        "round_number": 5,
+        "resource_state_before": {
+          "current_amount": 894.3873751370993,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 5,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 25.0,
+            "round_number": 5
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 15.0,
+            "round_number": 5
+          }
+        ],
+        "individual_rewards": [
+          111.79842189213741,
+          67.07905313528245
+        ],
+        "resource_state_after": {
+          "current_amount": 880.1886836882858,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 6,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.8801886836882857
+      },
+      {
+        "round_number": 6,
+        "resource_state_before": {
+          "current_amount": 880.1886836882858,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 6,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 25.0,
+            "round_number": 6
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 15.0,
+            "round_number": 6
+          }
+        ],
+        "individual_rewards": [
+          110.02358546103572,
+          66.01415127662143
+        ],
+        "resource_state_after": {
+          "current_amount": 867.5033797709987,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 7,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.8675033797709987
+      },
+      {
+        "round_number": 7,
+        "resource_state_before": {
+          "current_amount": 867.5033797709987,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 7,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 25.0,
+            "round_number": 7
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 15.0,
+            "round_number": 7
+          }
+        ],
+        "individual_rewards": [
+          108.43792247137483,
+          65.0627534828249
+        ],
+        "resource_state_after": {
+          "current_amount": 856.1190020953342,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 8,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.8561190020953342
+      },
+      {
+        "round_number": 8,
+        "resource_state_before": {
+          "current_amount": 856.1190020953342,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 8,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 25.0,
+            "round_number": 8
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 15.0,
+            "round_number": 8
+          }
+        ],
+        "individual_rewards": [
+          107.01487526191677,
+          64.20892515715006
+        ],
+        "resource_state_after": {
+          "current_amount": 845.8610329674428,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 9,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.8458610329674429
+      },
+      {
+        "round_number": 9,
+        "resource_state_before": {
+          "current_amount": 845.8610329674428,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 9,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 25.0,
+            "round_number": 9
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 15.0,
+            "round_number": 9
+          }
+        ],
+        "individual_rewards": [
+          105.73262912093035,
+          63.43957747255821
+        ],
+        "resource_state_after": {
+          "current_amount": 836.5847207651343,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 10,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.8365847207651343
+      },
+      {
+        "round_number": 10,
+        "resource_state_before": {
+          "current_amount": 836.5847207651343,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 10,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 25.0,
+            "round_number": 10
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 15.0,
+            "round_number": 10
+          }
+        ],
+        "individual_rewards": [
+          104.57309009564179,
+          62.74385405738508
+        ],
+        "resource_state_after": {
+          "current_amount": 828.1689429465981,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 11,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.8281689429465982
+      },
+      {
+        "round_number": 11,
+        "resource_state_before": {
+          "current_amount": 828.1689429465981,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 11,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 25.0,
+            "round_number": 11
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 15.0,
+            "round_number": 11
+          }
+        ],
+        "individual_rewards": [
+          103.52111786832477,
+          62.11267072099486
+        ],
+        "resource_state_after": {
+          "current_amount": 820.5115365316823,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 12,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.8205115365316823
+      },
+      {
+        "round_number": 12,
+        "resource_state_before": {
+          "current_amount": 820.5115365316823,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 12,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 25.0,
+            "round_number": 12
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 15.0,
+            "round_number": 12
+          }
+        ],
+        "individual_rewards": [
+          102.56394206646029,
+          61.53836523987617
+        ],
+        "resource_state_after": {
+          "current_amount": 813.5257005249015,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 13,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.8135257005249015
+      },
+      {
+        "round_number": 13,
+        "resource_state_before": {
+          "current_amount": 813.5257005249015,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 13,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 25.0,
+            "round_number": 13
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 15.0,
+            "round_number": 13
+          }
+        ],
+        "individual_rewards": [
+          101.69071256561269,
+          61.01442753936761
+        ],
+        "resource_state_after": {
+          "current_amount": 807.137192516496,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 14,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.8071371925164961
+      },
+      {
+        "round_number": 14,
+        "resource_state_before": {
+          "current_amount": 807.137192516496,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 14,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 25.0,
+            "round_number": 14
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 15.0,
+            "round_number": 14
+          }
+        ],
+        "individual_rewards": [
+          100.892149064562,
+          60.53528943873721
+        ],
+        "resource_state_after": {
+          "current_amount": 801.2821213106172,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 15,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.8012821213106172
+      },
+      {
+        "round_number": 15,
+        "resource_state_before": {
+          "current_amount": 801.2821213106172,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 15,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 25.0,
+            "round_number": 15
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 15.0,
+            "round_number": 15
+          }
+        ],
+        "individual_rewards": [
+          100.16026516382715,
+          60.09615909829628
+        ],
+        "resource_state_after": {
+          "current_amount": 795.9051921819853,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 16,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.7959051921819853
+      },
+      {
+        "round_number": 16,
+        "resource_state_before": {
+          "current_amount": 795.9051921819853,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 16,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 25.0,
+            "round_number": 16
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 15.0,
+            "round_number": 16
+          }
+        ],
+        "individual_rewards": [
+          99.48814902274816,
+          59.6928894136489
+        ],
+        "resource_state_after": {
+          "current_amount": 790.9582996128937,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 17,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.7909582996128937
+      },
+      {
+        "round_number": 17,
+        "resource_state_before": {
+          "current_amount": 790.9582996128937,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 17,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 24.0,
+            "round_number": 17
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 15.0,
+            "round_number": 17
+          }
+        ],
+        "individual_rewards": [
+          94.91499595354723,
+          59.32187247096702
+        ],
+        "resource_state_after": {
+          "current_amount": 787.1371434802264,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 18,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.7871371434802265
+      },
+      {
+        "round_number": 18,
+        "resource_state_before": {
+          "current_amount": 787.1371434802264,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 18,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 24.0,
+            "round_number": 18
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 15.0,
+            "round_number": 18
+          }
+        ],
+        "individual_rewards": [
+          94.45645721762718,
+          59.035285761016986
+        ],
+        "resource_state_after": {
+          "current_amount": 783.6115702683037,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 19,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.7836115702683037
+      },
+      {
+        "round_number": 19,
+        "resource_state_before": {
+          "current_amount": 783.6115702683037,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 19,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 24.0,
+            "round_number": 19
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 15.0,
+            "round_number": 19
+          }
+        ],
+        "individual_rewards": [
+          94.03338843219645,
+          58.770867770122784
+        ],
+        "resource_state_after": {
+          "current_amount": 780.3548301475071,
+          "growth_rate": 0.15,
+          "carrying_capacity": 1000.0,
+          "depletion_threshold": 100.0,
+          "rounds_survived": 20,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.7803548301475071
+      }
+    ],
+    "final_metrics": {
+      "survival_rate": 1.0,
+      "rounds_survived": 20,
+      "final_resource_level": 780.3548301475071,
+      "average_sustainability": 0.8474850046825901,
+      "extraction_fairness": 0.7528230871949233,
+      "total_rewards": [
+        2134.35962287123,
+        1287.7008947628221
+      ],
+      "total_extractions": [
+        497.0,
+        300.0
+      ],
+      "resource_depleted": false
+    },
+    "timestamp": "2025-07-16 13:07:39.172900"
+  },
+  {
+    "game_type": "pollution",
+    "model_name": "gpt-4",
+    "num_rounds_planned": 20,
+    "num_rounds_played": 4,
+    "round_results": [
+      {
+        "round_number": 0,
+        "resource_state_before": {
+          "current_amount": 100.0,
+          "growth_rate": 0.1,
+          "carrying_capacity": 100.0,
+          "depletion_threshold": 20.0,
+          "rounds_survived": 0,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 7.0,
+            "round_number": 0
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 6.0,
+            "round_number": 0
+          }
+        ],
+        "individual_rewards": [
+          84.0,
+          72.0
+        ],
+        "resource_state_after": {
+          "current_amount": 79.476,
+          "growth_rate": 0.1,
+          "carrying_capacity": 100.0,
+          "depletion_threshold": 20.0,
+          "rounds_survived": 1,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.79476
+      },
+      {
+        "round_number": 1,
+        "resource_state_before": {
+          "current_amount": 79.476,
+          "growth_rate": 0.1,
+          "carrying_capacity": 100.0,
+          "depletion_threshold": 20.0,
+          "rounds_survived": 1,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 6.0,
+            "round_number": 1
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 6.0,
+            "round_number": 1
+          }
+        ],
+        "individual_rewards": [
+          72.0,
+          72.0
+        ],
+        "resource_state_after": {
+          "current_amount": 58.553586576,
+          "growth_rate": 0.1,
+          "carrying_capacity": 100.0,
+          "depletion_threshold": 20.0,
+          "rounds_survived": 2,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.58553586576
+      },
+      {
+        "round_number": 2,
+        "resource_state_before": {
+          "current_amount": 58.553586576,
+          "growth_rate": 0.1,
+          "carrying_capacity": 100.0,
+          "depletion_threshold": 20.0,
+          "rounds_survived": 2,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 5.0,
+            "round_number": 2
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 6.0,
+            "round_number": 2
+          }
+        ],
+        "individual_rewards": [
+          50.0,
+          60.0
+        ],
+        "resource_state_after": {
+          "current_amount": 37.88975126756913,
+          "growth_rate": 0.1,
+          "carrying_capacity": 100.0,
+          "depletion_threshold": 20.0,
+          "rounds_survived": 3,
+          "is_depleted": false
+        },
+        "sustainability_score": 0.37889751267569133
+      },
+      {
+        "round_number": 3,
+        "resource_state_before": {
+          "current_amount": 37.88975126756913,
+          "growth_rate": 0.1,
+          "carrying_capacity": 100.0,
+          "depletion_threshold": 20.0,
+          "rounds_survived": 3,
+          "is_depleted": false
+        },
+        "player_actions": [
+          {
+            "player_id": 0,
+            "extraction_amount": 4.0,
+            "round_number": 3
+          },
+          {
+            "player_id": 1,
+            "extraction_amount": 6.0,
+            "round_number": 3
+          }
+        ],
+        "individual_rewards": [
+          40.0,
+          60.0
+        ],
+        "resource_state_after": {
+          "current_amount": 18.209794467984622,
+          "growth_rate": 0.1,
+          "carrying_capacity": 100.0,
+          "depletion_threshold": 20.0,
+          "rounds_survived": 4,
+          "is_depleted": true
+        },
+        "sustainability_score": 0.18209794467984622
+      }
+    ],
+    "final_metrics": {
+      "survival_rate": 0.2,
+      "rounds_survived": 4,
+      "final_resource_level": 18.209794467984622,
+      "average_sustainability": 0.4853228307788844,
+      "extraction_fairness": 0.9565217410207939,
+      "total_rewards": [
+        246.0,
+        264.0
+      ],
+      "total_extractions": [
+        22.0,
+        24.0
+      ],
+      "resource_depleted": true
+    },
+    "timestamp": "2025-07-16 13:07:44.639209"
+  }
+]

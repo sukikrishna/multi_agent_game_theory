@@ -1,0 +1,224 @@
+{
+  "prisoners_dilemma": [],
+  "battle_of_sexes": [],
+  "colonel_blotto": [
+    {
+      "timestamp": "2025-07-16T12:57:58.556469",
+      "player1_strategy": "gpt-4_business",
+      "player2_strategy": "baseline",
+      "num_rounds": 10,
+      "results": [
+        {
+          "round": 0,
+          "p1_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p2_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 1,
+          "p1_action": [
+            25,
+            25,
+            25,
+            25,
+            10,
+            10
+          ],
+          "p2_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 2,
+          "p1_action": [
+            30,
+            30,
+            30,
+            10,
+            10,
+            10
+          ],
+          "p2_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 3,
+          "p1_action": [
+            30,
+            30,
+            30,
+            10,
+            10,
+            10
+          ],
+          "p2_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 4,
+          "p1_action": [
+            30,
+            30,
+            30,
+            10,
+            10,
+            10
+          ],
+          "p2_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 5,
+          "p1_action": [
+            30,
+            30,
+            30,
+            10,
+            10,
+            10
+          ],
+          "p2_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 6,
+          "p1_action": [
+            35,
+            35,
+            25,
+            10,
+            10,
+            5
+          ],
+          "p2_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 7,
+          "p1_action": [
+            35,
+            35,
+            25,
+            10,
+            10,
+            5
+          ],
+          "p2_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 8,
+          "p1_action": [
+            35,
+            35,
+            25,
+            10,
+            10,
+            5
+          ],
+          "p2_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p1_reward": 0,
+          "p2_reward": 0
+        },
+        {
+          "round": 9,
+          "p1_action": [
+            35,
+            35,
+            25,
+            10,
+            10,
+            5
+          ],
+          "p2_action": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "p1_reward": 0,
+          "p2_reward": 0
+        }
+      ]
+    }
+  ]
+}
