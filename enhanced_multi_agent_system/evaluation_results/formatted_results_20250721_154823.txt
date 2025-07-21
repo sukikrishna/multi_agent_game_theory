@@ -1,0 +1,201 @@
+================================================================================
+COMPREHENSIVE MODEL EVALUATION RESULTS
+================================================================================
+
+OVERALL STATISTICS:
+Total Experiments: 24
+Successful Experiments: 24
+Success Rate: 100.0%
+
+MODEL PERFORMANCE SUMMARY:
+--------------------------------------------------
+
+Llama-3.3-70B:
+  Overall Average Score: 307.123
+  Total Experiments: 6
+  Prisoners Dilemma: 30.00 (avg: 3.000)
+  Battle Of Sexes: 10.00 (avg: 1.000)
+  Colonel Blotto: 1.00 (avg: 0.100)
+  Resource Fishing: 120.00 (avg: 120.000)
+  Resource Pasture: 1365.74 (avg: 91.049)
+  Resource Pollution: 316.00 (avg: 79.000)
+
+DeepSeek-R1:
+  Overall Average Score: 50.000
+  Total Experiments: 6
+  Prisoners Dilemma: 30.00 (avg: 3.000)
+  Battle Of Sexes: 20.00 (avg: 2.000)
+  Colonel Blotto: 0.00 (avg: 0.000)
+  Resource Fishing: 0.00 (avg: 0.000)
+  Resource Pasture: 250.00 (avg: 250.000)
+  Resource Pollution: 0.00 (avg: 0.000)
+
+Llama-2-70B:
+  Overall Average Score: 8.333
+  Total Experiments: 6
+  Prisoners Dilemma: 30.00 (avg: 3.000)
+  Battle Of Sexes: 20.00 (avg: 2.000)
+  Colonel Blotto: 0.00 (avg: 0.000)
+  Resource Fishing: 0.00 (avg: 0.000)
+  Resource Pasture: 0.00 (avg: 0.000)
+  Resource Pollution: 0.00 (avg: 0.000)
+
+GPT-4:
+  Overall Average Score: 401.225
+  Total Experiments: 6
+  Prisoners Dilemma: 30.00 (avg: 3.000)
+  Battle Of Sexes: 8.00 (avg: 0.800)
+  Colonel Blotto: 1.00 (avg: 0.100)
+  Resource Fishing: 422.60 (avg: 46.956)
+  Resource Pasture: 1689.75 (avg: 112.650)
+  Resource Pollution: 256.00 (avg: 85.333)
+
+================================================================================
+DETAILED RESULTS TABLE (Copy-Paste Ready)
+================================================================================
+
+TABLE FORMAT:
+        Model               Game Total_Score Avg_Score    Key_Metric
+Llama-3.3-70B  Prisoners Dilemma       30.00     3.000  Coop: 100.0%
+Llama-3.3-70B    Battle Of Sexes       10.00     1.000  Coord: 50.0%
+Llama-3.3-70B     Colonel Blotto        1.00     0.100    Win: 10.0%
+Llama-3.3-70B   Resource Fishing      120.00   120.000    Sust: 0.79
+Llama-3.3-70B   Resource Pasture     1365.74    91.049    Sust: 0.88
+Llama-3.3-70B Resource Pollution      316.00    79.000    Sust: 0.45
+  DeepSeek-R1  Prisoners Dilemma       30.00     3.000  Coop: 100.0%
+  DeepSeek-R1    Battle Of Sexes       20.00     2.000 Coord: 100.0%
+  DeepSeek-R1     Colonel Blotto        0.00     0.000     Win: 0.0%
+  DeepSeek-R1   Resource Fishing        0.00     0.000     Sust: nan
+  DeepSeek-R1   Resource Pasture      250.00   250.000    Sust: 0.96
+  DeepSeek-R1 Resource Pollution        0.00     0.000     Sust: nan
+  Llama-2-70B  Prisoners Dilemma       30.00     3.000  Coop: 100.0%
+  Llama-2-70B    Battle Of Sexes       20.00     2.000 Coord: 100.0%
+  Llama-2-70B     Colonel Blotto        0.00     0.000     Win: 0.0%
+  Llama-2-70B   Resource Fishing        0.00     0.000     Sust: nan
+  Llama-2-70B   Resource Pasture        0.00     0.000     Sust: nan
+  Llama-2-70B Resource Pollution        0.00     0.000     Sust: nan
+        GPT-4  Prisoners Dilemma       30.00     3.000  Coop: 100.0%
+        GPT-4    Battle Of Sexes        8.00     0.800  Coord: 40.0%
+        GPT-4     Colonel Blotto        1.00     0.100    Win: 20.0%
+        GPT-4   Resource Fishing      422.60    46.956    Sust: 0.38
+        GPT-4   Resource Pasture     1689.75   112.650    Sust: 0.86
+        GPT-4 Resource Pollution      256.00    85.333    Sust: 0.46
+
+CSV FORMAT (for Excel/Google Sheets):
+Model,Game,Total_Score,Avg_Score,Key_Metric
+Llama-3.3-70B,Prisoners Dilemma,30.00,3.000,Coop: 100.0%
+Llama-3.3-70B,Battle Of Sexes,10.00,1.000,Coord: 50.0%
+Llama-3.3-70B,Colonel Blotto,1.00,0.100,Win: 10.0%
+Llama-3.3-70B,Resource Fishing,120.00,120.000,Sust: 0.79
+Llama-3.3-70B,Resource Pasture,1365.74,91.049,Sust: 0.88
+Llama-3.3-70B,Resource Pollution,316.00,79.000,Sust: 0.45
+DeepSeek-R1,Prisoners Dilemma,30.00,3.000,Coop: 100.0%
+DeepSeek-R1,Battle Of Sexes,20.00,2.000,Coord: 100.0%
+DeepSeek-R1,Colonel Blotto,0.00,0.000,Win: 0.0%
+DeepSeek-R1,Resource Fishing,0.00,0.000,Sust: nan
+DeepSeek-R1,Resource Pasture,250.00,250.000,Sust: 0.96
+DeepSeek-R1,Resource Pollution,0.00,0.000,Sust: nan
+Llama-2-70B,Prisoners Dilemma,30.00,3.000,Coop: 100.0%
+Llama-2-70B,Battle Of Sexes,20.00,2.000,Coord: 100.0%
+Llama-2-70B,Colonel Blotto,0.00,0.000,Win: 0.0%
+Llama-2-70B,Resource Fishing,0.00,0.000,Sust: nan
+Llama-2-70B,Resource Pasture,0.00,0.000,Sust: nan
+Llama-2-70B,Resource Pollution,0.00,0.000,Sust: nan
+GPT-4,Prisoners Dilemma,30.00,3.000,Coop: 100.0%
+GPT-4,Battle Of Sexes,8.00,0.800,Coord: 40.0%
+GPT-4,Colonel Blotto,1.00,0.100,Win: 20.0%
+GPT-4,Resource Fishing,422.60,46.956,Sust: 0.38
+GPT-4,Resource Pasture,1689.75,112.650,Sust: 0.86
+GPT-4,Resource Pollution,256.00,85.333,Sust: 0.46
+
+================================================================================
+GAME-SPECIFIC ANALYSIS
+================================================================================
+
+PRISONERS DILEMMA:
+----------------------------------------
+Llama-3.3-70B: Score=30.00, Avg=3.000
+  Cooperation: 100.0%, Exploitation: 0.0%
+DeepSeek-R1: Score=30.00, Avg=3.000
+  Cooperation: 100.0%, Exploitation: 0.0%
+Llama-2-70B: Score=30.00, Avg=3.000
+  Cooperation: 100.0%, Exploitation: 0.0%
+GPT-4: Score=30.00, Avg=3.000
+  Cooperation: 100.0%, Exploitation: 0.0%
+
+BATTLE OF SEXES:
+----------------------------------------
+Llama-3.3-70B: Score=10.00, Avg=1.000
+  Coordination: 50.0%, Preference Success: 50.0%
+DeepSeek-R1: Score=20.00, Avg=2.000
+  Coordination: 100.0%, Preference Success: 100.0%
+Llama-2-70B: Score=20.00, Avg=2.000
+  Coordination: 100.0%, Preference Success: 100.0%
+GPT-4: Score=8.00, Avg=0.800
+  Coordination: 40.0%, Preference Success: 40.0%
+
+COLONEL BLOTTO:
+----------------------------------------
+Llama-3.3-70B: Score=1.00, Avg=0.100
+  Win Rate: 10.0%, Tie Rate: 90.0%
+DeepSeek-R1: Score=0.00, Avg=0.000
+  Win Rate: 0.0%, Tie Rate: 100.0%
+Llama-2-70B: Score=0.00, Avg=0.000
+  Win Rate: 0.0%, Tie Rate: 100.0%
+GPT-4: Score=1.00, Avg=0.100
+  Win Rate: 20.0%, Tie Rate: 70.0%
+
+RESOURCE FISHING:
+----------------------------------------
+Llama-3.3-70B: Score=120.00, Avg=120.000
+  Survival: 6.7%, Sustainability: 0.79, Depleted: False
+DeepSeek-R1: Score=0.00, Avg=0.000
+  Survival: 0.0%, Sustainability: nan, Depleted: True
+Llama-2-70B: Score=0.00, Avg=0.000
+  Survival: 0.0%, Sustainability: nan, Depleted: True
+GPT-4: Score=422.60, Avg=46.956
+  Survival: 60.0%, Sustainability: 0.38, Depleted: True
+
+RESOURCE PASTURE:
+----------------------------------------
+Llama-3.3-70B: Score=1365.74, Avg=91.049
+  Survival: 100.0%, Sustainability: 0.88, Depleted: False
+DeepSeek-R1: Score=250.00, Avg=250.000
+  Survival: 6.7%, Sustainability: 0.96, Depleted: False
+Llama-2-70B: Score=0.00, Avg=0.000
+  Survival: 0.0%, Sustainability: nan, Depleted: True
+GPT-4: Score=1689.75, Avg=112.650
+  Survival: 100.0%, Sustainability: 0.86, Depleted: False
+
+RESOURCE POLLUTION:
+----------------------------------------
+Llama-3.3-70B: Score=316.00, Avg=79.000
+  Survival: 26.7%, Sustainability: 0.45, Depleted: True
+DeepSeek-R1: Score=0.00, Avg=0.000
+  Survival: 0.0%, Sustainability: nan, Depleted: True
+Llama-2-70B: Score=0.00, Avg=0.000
+  Survival: 0.0%, Sustainability: nan, Depleted: True
+GPT-4: Score=256.00, Avg=85.333
+  Survival: 20.0%, Sustainability: 0.46, Depleted: True
+
+================================================================================
+BEST PERFORMERS BY GAME
+================================================================================
+
+Prisoners Dilemma:
+  Best: Llama-3.3-70B (Score: 30.00)
+
+Battle Of Sexes:
+  Best: DeepSeek-R1 (Score: 20.00)
+
+Colonel Blotto:
+  Best: Llama-3.3-70B (Score: 1.00)
+
+Resource Fishing:
+  Best: GPT-4 (Score: 422.60)
+
+Resource Pasture:
+  Best: GPT-4 (Score: 1689.75)
+
+Resource Pollution:
+  Best: Llama-3.3-70B (Score: 316.00)

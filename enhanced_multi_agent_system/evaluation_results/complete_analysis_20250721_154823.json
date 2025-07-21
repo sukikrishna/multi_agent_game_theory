@@ -1,0 +1,2291 @@
+{
+  "timestamp": "20250721_154823",
+  "summary_stats": {
+    "overall": {
+      "total_experiments": 24,
+      "successful_experiments": 24,
+      "success_rate": 1.0
+    },
+    "model_summary": {
+      "Llama-3.3-70B": {
+        "experiments": 6,
+        "total_score": 1842.7406169244116,
+        "games": {
+          "prisoners_dilemma": {
+            "score": 30,
+            "avg_score": 3.0,
+            "metrics": {
+              "rounds_data": [
+                {
+                  "round": 0,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 1,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 2,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 3,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 4,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 5,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 6,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 7,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 8,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 9,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                }
+              ],
+              "total_score": 30,
+              "avg_score": 3.0,
+              "cooperation_rate": 1.0,
+              "player_cooperation_rate": 1.0,
+              "exploitation_rate": 0.0,
+              "nash_deviation": 1.0
+            }
+          },
+          "battle_of_sexes": {
+            "score": 10,
+            "avg_score": 1.0,
+            "metrics": {
+              "rounds_data": [
+                {
+                  "round": 0,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 1,
+                  "p1_action": 0,
+                  "p2_action": 1,
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 2,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 3,
+                  "p1_action": 0,
+                  "p2_action": 1,
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 4,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 5,
+                  "p1_action": 0,
+                  "p2_action": 1,
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 6,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 7,
+                  "p1_action": 0,
+                  "p2_action": 1,
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 8,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 9,
+                  "p1_action": 0,
+                  "p2_action": 1,
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                }
+              ],
+              "total_score": 10,
+              "avg_score": 1.0,
+              "coordination_rate": 0.5,
+              "preference_success_rate": 0.5,
+              "fairness_balance": 0.5
+            }
+          },
+          "colonel_blotto": {
+            "score": 1,
+            "avg_score": 0.1,
+            "metrics": {
+              "rounds_data": [
+                {
+                  "round": 0,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 1,
+                  "p1_action": [
+                    30,
+                    25,
+                    20,
+                    20,
+                    15,
+                    10
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 2,
+                  "p1_action": [
+                    25,
+                    25,
+                    20,
+                    20,
+                    15,
+                    15
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 3,
+                  "p1_action": [
+                    30,
+                    30,
+                    20,
+                    20,
+                    10,
+                    10
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 4,
+                  "p1_action": [
+                    25,
+                    25,
+                    25,
+                    20,
+                    15,
+                    10
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 1,
+                  "p2_reward": -1
+                },
+                {
+                  "round": 5,
+                  "p1_action": [
+                    30,
+                    30,
+                    20,
+                    20,
+                    10,
+                    10
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 6,
+                  "p1_action": [
+                    25,
+                    25,
+                    20,
+                    20,
+                    15,
+                    15
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 7,
+                  "p1_action": [
+                    30,
+                    30,
+                    20,
+                    20,
+                    10,
+                    10
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 8,
+                  "p1_action": [
+                    25,
+                    25,
+                    20,
+                    20,
+                    15,
+                    15
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 9,
+                  "p1_action": [
+                    30,
+                    25,
+                    20,
+                    20,
+                    15,
+                    10
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                }
+              ],
+              "total_score": 1,
+              "avg_score": 0.1,
+              "win_rate": 0.1,
+              "tie_rate": 0.9,
+              "avg_allocation_entropy": 1.7438796548564035,
+              "allocation_consistency": 0.9826315762894389
+            }
+          },
+          "resource_fishing": {
+            "score": 120.0,
+            "avg_score": 120.0,
+            "metrics": {
+              "rounds_data": [
+                {
+                  "round": 0,
+                  "p1_action": 100,
+                  "p2_action": 25,
+                  "p1_reward": 120.0,
+                  "p2_reward": 25.0,
+                  "resource_level": 393.75,
+                  "sustainability_score": 0.7875
+                }
+              ],
+              "total_score": 120.0,
+              "avg_score": 120.0,
+              "survival_rate": 0.06666666666666667,
+              "final_resource_level": 393.75,
+              "avg_sustainability": 0.7875,
+              "resource_depleted": false,
+              "sustainability_score": 0.7875
+            }
+          },
+          "resource_pasture": {
+            "score": 1365.7406169244116,
+            "avg_score": 91.04937446162744,
+            "metrics": {
+              "rounds_data": [
+                {
+                  "round": 0,
+                  "p1_action": 20,
+                  "p2_action": 15,
+                  "p1_reward": 100.0,
+                  "p2_reward": 75.0,
+                  "resource_level": 976.0824,
+                  "sustainability_score": 0.9760824
+                },
+                {
+                  "round": 1,
+                  "p1_action": 20,
+                  "p2_action": 15,
+                  "p1_reward": 97.60824,
+                  "p2_reward": 73.20618,
+                  "resource_level": 955.465724421536,
+                  "sustainability_score": 0.955465724421536
+                },
+                {
+                  "round": 2,
+                  "p1_action": 20,
+                  "p2_action": 15,
+                  "p1_reward": 95.5465724421536,
+                  "p2_reward": 71.6599293316152,
+                  "resource_level": 937.5566825882518,
+                  "sustainability_score": 0.9375566825882518
+                },
+                {
+                  "round": 3,
+                  "p1_action": 20,
+                  "p2_action": 15,
+                  "p1_reward": 93.75566825882518,
+                  "p2_reward": 70.31675119411888,
+                  "resource_level": 921.8961811503476,
+                  "sustainability_score": 0.9218961811503477
+                },
+                {
+                  "round": 4,
+                  "p1_action": 20,
+                  "p2_action": 15,
+                  "p1_reward": 92.18961811503476,
+                  "p2_reward": 69.14221358627607,
+                  "resource_level": 908.1230509216235,
+                  "sustainability_score": 0.9081230509216235
+                },
+                {
+                  "round": 5,
+                  "p1_action": 20,
+                  "p2_action": 15,
+                  "p1_reward": 90.81230509216235,
+                  "p2_reward": 68.10922881912177,
+                  "resource_level": 895.9490208453291,
+                  "sustainability_score": 0.8959490208453291
+                },
+                {
+                  "round": 6,
+                  "p1_action": 20,
+                  "p2_action": 15,
+                  "p1_reward": 89.59490208453292,
+                  "p2_reward": 67.19617656339969,
+                  "resource_level": 885.1410485541736,
+                  "sustainability_score": 0.8851410485541736
+                },
+                {
+                  "round": 7,
+                  "p1_action": 20,
+                  "p2_action": 15,
+                  "p1_reward": 88.51410485541736,
+                  "p2_reward": 66.38557864156303,
+                  "resource_level": 875.5085892698174,
+                  "sustainability_score": 0.8755085892698174
+                },
+                {
+                  "round": 8,
+                  "p1_action": 25,
+                  "p2_action": 15,
+                  "p1_reward": 109.43857365872718,
+                  "p2_reward": 65.66314419523631,
+                  "resource_level": 863.3088666344964,
+                  "sustainability_score": 0.8633088666344965
+                },
+                {
+                  "round": 9,
+                  "p1_action": 20,
+                  "p2_action": 15,
+                  "p1_reward": 86.33088666344965,
+                  "p2_reward": 64.74816499758724,
+                  "resource_level": 855.9440612279399,
+                  "sustainability_score": 0.8559440612279399
+                },
+                {
+                  "round": 10,
+                  "p1_action": 20,
+                  "p2_action": 15,
+                  "p1_reward": 85.59440612279398,
+                  "p2_reward": 64.19580459209548,
+                  "resource_level": 849.3119651337387,
+                  "sustainability_score": 0.8493119651337386
+                },
+                {
+                  "round": 11,
+                  "p1_action": 20,
+                  "p2_action": 15,
+                  "p1_reward": 84.93119651337386,
+                  "p2_reward": 63.6983973850304,
+                  "resource_level": 843.325758293023,
+                  "sustainability_score": 0.843325758293023
+                },
+                {
+                  "round": 12,
+                  "p1_action": 20,
+                  "p2_action": 15,
+                  "p1_reward": 84.3325758293023,
+                  "p2_reward": 63.249431871976725,
+                  "resource_level": 837.9112082165625,
+                  "sustainability_score": 0.8379112082165625
+                },
+                {
+                  "round": 13,
+                  "p1_action": 20,
+                  "p2_action": 15,
+                  "p1_reward": 83.79112082165625,
+                  "p2_reward": 62.84334061624219,
+                  "resource_level": 833.0044646698251,
+                  "sustainability_score": 0.8330044646698251
+                },
+                {
+                  "round": 14,
+                  "p1_action": 20,
+                  "p2_action": 15,
+                  "p1_reward": 83.30044646698252,
+                  "p2_reward": 62.475334850236884,
+                  "resource_level": 828.5503061495461,
+                  "sustainability_score": 0.8285503061495462
+                }
+              ],
+              "total_score": 1365.7406169244116,
+              "avg_score": 91.04937446162744,
+              "survival_rate": 1.0,
+              "final_resource_level": 828.5503061495461,
+              "avg_sustainability": 0.8844719552050807,
+              "resource_depleted": false,
+              "sustainability_score": 0.8844719552050807
+            }
+          },
+          "resource_pollution": {
+            "score": 316.0,
+            "avg_score": 79.0,
+            "metrics": {
+              "rounds_data": [
+                {
+                  "round": 0,
+                  "p1_action": 5,
+                  "p2_action": 6,
+                  "p1_reward": 60.0,
+                  "p2_reward": 72.0,
+                  "resource_level": 84.084,
+                  "sustainability_score": 0.84084
+                },
+                {
+                  "round": 1,
+                  "p1_action": 8,
+                  "p2_action": 6,
+                  "p1_reward": 96.0,
+                  "p2_reward": 72.0,
+                  "resource_level": 59.229415056,
+                  "sustainability_score": 0.59229415056
+                },
+                {
+                  "round": 2,
+                  "p1_action": 8,
+                  "p2_action": 6,
+                  "p1_reward": 80.0,
+                  "p2_reward": 60.0,
+                  "resource_level": 32.20469142073992,
+                  "sustainability_score": 0.32204691420739917
+                },
+                {
+                  "round": 3,
+                  "p1_action": 8,
+                  "p2_action": 6,
+                  "p1_reward": 80.0,
+                  "p2_reward": 60.0,
+                  "resource_level": 4.222370850683563,
+                  "sustainability_score": 0.042223708506835635
+                }
+              ],
+              "total_score": 316.0,
+              "avg_score": 79.0,
+              "survival_rate": 0.26666666666666666,
+              "final_resource_level": 4.222370850683563,
+              "avg_sustainability": 0.44935119331855866,
+              "resource_depleted": true,
+              "sustainability_score": 0.44935119331855866
+            }
+          }
+        },
+        "avg_score": 307.1234361540686
+      },
+      "DeepSeek-R1": {
+        "experiments": 6,
+        "total_score": 300.0,
+        "games": {
+          "prisoners_dilemma": {
+            "score": 30,
+            "avg_score": 3.0,
+            "metrics": {
+              "rounds_data": [
+                {
+                  "round": 0,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 1,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 2,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 3,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 4,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 5,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 6,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 7,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 8,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 9,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                }
+              ],
+              "total_score": 30,
+              "avg_score": 3.0,
+              "cooperation_rate": 1.0,
+              "player_cooperation_rate": 1.0,
+              "exploitation_rate": 0.0,
+              "nash_deviation": 1.0
+            }
+          },
+          "battle_of_sexes": {
+            "score": 20,
+            "avg_score": 2.0,
+            "metrics": {
+              "rounds_data": [
+                {
+                  "round": 0,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 1,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 2,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 3,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 4,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 5,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 6,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 7,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 8,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 9,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                }
+              ],
+              "total_score": 20,
+              "avg_score": 2.0,
+              "coordination_rate": 1.0,
+              "preference_success_rate": 1.0,
+              "fairness_balance": 1.0
+            }
+          },
+          "colonel_blotto": {
+            "score": 0,
+            "avg_score": 0.0,
+            "metrics": {
+              "rounds_data": [
+                {
+                  "round": 0,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 1,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 2,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 3,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 4,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 5,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 6,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 7,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 8,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 9,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                }
+              ],
+              "total_score": 0,
+              "avg_score": 0.0,
+              "win_rate": 0.0,
+              "tie_rate": 1.0,
+              "avg_allocation_entropy": 1.791759468628055,
+              "allocation_consistency": 0.9999999999999999
+            }
+          },
+          "resource_fishing": {
+            "score": 0,
+            "avg_score": 0,
+            "metrics": {
+              "rounds_data": [],
+              "total_score": 0,
+              "avg_score": 0,
+              "survival_rate": 0.0,
+              "final_resource_level": 0,
+              "avg_sustainability": NaN,
+              "resource_depleted": true,
+              "sustainability_score": NaN
+            }
+          },
+          "resource_pasture": {
+            "score": 250.0,
+            "avg_score": 250.0,
+            "metrics": {
+              "rounds_data": [
+                {
+                  "round": 0,
+                  "p1_action": 50,
+                  "p2_action": 15,
+                  "p1_reward": 250.0,
+                  "p2_reward": 75.0,
+                  "resource_level": 955.3944,
+                  "sustainability_score": 0.9553944
+                }
+              ],
+              "total_score": 250.0,
+              "avg_score": 250.0,
+              "survival_rate": 0.06666666666666667,
+              "final_resource_level": 955.3944,
+              "avg_sustainability": 0.9553944,
+              "resource_depleted": false,
+              "sustainability_score": 0.9553944
+            }
+          },
+          "resource_pollution": {
+            "score": 0,
+            "avg_score": 0,
+            "metrics": {
+              "rounds_data": [],
+              "total_score": 0,
+              "avg_score": 0,
+              "survival_rate": 0.0,
+              "final_resource_level": 0,
+              "avg_sustainability": NaN,
+              "resource_depleted": true,
+              "sustainability_score": NaN
+            }
+          }
+        },
+        "avg_score": 50.0
+      },
+      "Llama-2-70B": {
+        "experiments": 6,
+        "total_score": 50,
+        "games": {
+          "prisoners_dilemma": {
+            "score": 30,
+            "avg_score": 3.0,
+            "metrics": {
+              "rounds_data": [
+                {
+                  "round": 0,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 1,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 2,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 3,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 4,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 5,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 6,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 7,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 8,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 9,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                }
+              ],
+              "total_score": 30,
+              "avg_score": 3.0,
+              "cooperation_rate": 1.0,
+              "player_cooperation_rate": 1.0,
+              "exploitation_rate": 0.0,
+              "nash_deviation": 1.0
+            }
+          },
+          "battle_of_sexes": {
+            "score": 20,
+            "avg_score": 2.0,
+            "metrics": {
+              "rounds_data": [
+                {
+                  "round": 0,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 1,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 2,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 3,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 4,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 5,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 6,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 7,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 8,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 9,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                }
+              ],
+              "total_score": 20,
+              "avg_score": 2.0,
+              "coordination_rate": 1.0,
+              "preference_success_rate": 1.0,
+              "fairness_balance": 1.0
+            }
+          },
+          "colonel_blotto": {
+            "score": 0,
+            "avg_score": 0.0,
+            "metrics": {
+              "rounds_data": [
+                {
+                  "round": 0,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 1,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 2,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 3,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 4,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 5,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 6,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 7,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 8,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 9,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                }
+              ],
+              "total_score": 0,
+              "avg_score": 0.0,
+              "win_rate": 0.0,
+              "tie_rate": 1.0,
+              "avg_allocation_entropy": 1.791759468628055,
+              "allocation_consistency": 0.9999999999999999
+            }
+          },
+          "resource_fishing": {
+            "score": 0,
+            "avg_score": 0,
+            "metrics": {
+              "rounds_data": [],
+              "total_score": 0,
+              "avg_score": 0,
+              "survival_rate": 0.0,
+              "final_resource_level": 0,
+              "avg_sustainability": NaN,
+              "resource_depleted": true,
+              "sustainability_score": NaN
+            }
+          },
+          "resource_pasture": {
+            "score": 0,
+            "avg_score": 0,
+            "metrics": {
+              "rounds_data": [],
+              "total_score": 0,
+              "avg_score": 0,
+              "survival_rate": 0.0,
+              "final_resource_level": 0,
+              "avg_sustainability": NaN,
+              "resource_depleted": true,
+              "sustainability_score": NaN
+            }
+          },
+          "resource_pollution": {
+            "score": 0,
+            "avg_score": 0,
+            "metrics": {
+              "rounds_data": [],
+              "total_score": 0,
+              "avg_score": 0,
+              "survival_rate": 0.0,
+              "final_resource_level": 0,
+              "avg_sustainability": NaN,
+              "resource_depleted": true,
+              "sustainability_score": NaN
+            }
+          }
+        },
+        "avg_score": 8.333333333333334
+      },
+      "GPT-4": {
+        "experiments": 6,
+        "total_score": 2407.348821211177,
+        "games": {
+          "prisoners_dilemma": {
+            "score": 30,
+            "avg_score": 3.0,
+            "metrics": {
+              "rounds_data": [
+                {
+                  "round": 0,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 1,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 2,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 3,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 4,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 5,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 6,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 7,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 8,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                },
+                {
+                  "round": 9,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 3,
+                  "p2_reward": 3
+                }
+              ],
+              "total_score": 30,
+              "avg_score": 3.0,
+              "cooperation_rate": 1.0,
+              "player_cooperation_rate": 1.0,
+              "exploitation_rate": 0.0,
+              "nash_deviation": 1.0
+            }
+          },
+          "battle_of_sexes": {
+            "score": 8,
+            "avg_score": 0.8,
+            "metrics": {
+              "rounds_data": [
+                {
+                  "round": 0,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 1,
+                  "p1_action": 0,
+                  "p2_action": 1,
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 2,
+                  "p1_action": 1,
+                  "p2_action": 0,
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 3,
+                  "p1_action": 0,
+                  "p2_action": 1,
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 4,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 5,
+                  "p1_action": 0,
+                  "p2_action": 1,
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 6,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 7,
+                  "p1_action": 0,
+                  "p2_action": 1,
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 8,
+                  "p1_action": 0,
+                  "p2_action": 0,
+                  "p1_reward": 2,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 9,
+                  "p1_action": 0,
+                  "p2_action": 1,
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                }
+              ],
+              "total_score": 8,
+              "avg_score": 0.8,
+              "coordination_rate": 0.4,
+              "preference_success_rate": 0.4,
+              "fairness_balance": 0.4
+            }
+          },
+          "colonel_blotto": {
+            "score": 1,
+            "avg_score": 0.1,
+            "metrics": {
+              "rounds_data": [
+                {
+                  "round": 0,
+                  "p1_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 1,
+                  "p1_action": [
+                    25,
+                    25,
+                    25,
+                    15,
+                    15,
+                    15
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 2,
+                  "p1_action": [
+                    30,
+                    30,
+                    20,
+                    20,
+                    10,
+                    10
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 3,
+                  "p1_action": [
+                    25,
+                    25,
+                    25,
+                    25,
+                    10,
+                    10
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 1,
+                  "p2_reward": -1
+                },
+                {
+                  "round": 4,
+                  "p1_action": [
+                    30,
+                    30,
+                    20,
+                    20,
+                    10,
+                    10
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 5,
+                  "p1_action": [
+                    40,
+                    40,
+                    20,
+                    10,
+                    5,
+                    5
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": -1,
+                  "p2_reward": 1
+                },
+                {
+                  "round": 6,
+                  "p1_action": [
+                    30,
+                    30,
+                    30,
+                    15,
+                    10,
+                    5
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 7,
+                  "p1_action": [
+                    35,
+                    35,
+                    25,
+                    10,
+                    10,
+                    5
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 8,
+                  "p1_action": [
+                    30,
+                    30,
+                    20,
+                    20,
+                    10,
+                    10
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 0,
+                  "p2_reward": 0
+                },
+                {
+                  "round": 9,
+                  "p1_action": [
+                    25,
+                    25,
+                    25,
+                    25,
+                    10,
+                    10
+                  ],
+                  "p2_action": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "p1_reward": 1,
+                  "p2_reward": -1
+                }
+              ],
+              "total_score": 1,
+              "avg_score": 0.1,
+              "win_rate": 0.2,
+              "tie_rate": 0.7,
+              "avg_allocation_entropy": 1.6842460458481838,
+              "allocation_consistency": 0.952240876740862
+            }
+          },
+          "resource_fishing": {
+            "score": 422.6,
+            "avg_score": 46.955555555555556,
+            "metrics": {
+              "rounds_data": [
+                {
+                  "round": 0,
+                  "p1_action": 100,
+                  "p2_action": 25,
+                  "p1_reward": 120.0,
+                  "p2_reward": 25.0,
+                  "resource_level": 393.75,
+                  "sustainability_score": 0.7875
+                },
+                {
+                  "round": 1,
+                  "p1_action": 60,
+                  "p2_action": 25,
+                  "p1_reward": 72.0,
+                  "p2_reward": 25.0,
+                  "resource_level": 332.369375,
+                  "sustainability_score": 0.6647387499999999
+                },
+                {
+                  "round": 2,
+                  "p1_action": 70,
+                  "p2_action": 25,
+                  "p1_reward": 70.0,
+                  "p2_reward": 25.0,
+                  "resource_level": 262.30556192484374,
+                  "sustainability_score": 0.5246111238496874
+                },
+                {
+                  "round": 3,
+                  "p1_action": 50,
+                  "p2_action": 25,
+                  "p1_reward": 50.0,
+                  "p2_reward": 25.0,
+                  "resource_level": 210.7333248986199,
+                  "sustainability_score": 0.4214666497972398
+                },
+                {
+                  "round": 4,
+                  "p1_action": 30,
+                  "p2_action": 25,
+                  "p1_reward": 30.0,
+                  "p2_reward": 25.0,
+                  "resource_level": 177.17884248475224,
+                  "sustainability_score": 0.3543576849695045
+                },
+                {
+                  "round": 5,
+                  "p1_action": 35,
+                  "p2_action": 25,
+                  "p1_reward": 35.0,
+                  "p2_reward": 25.0,
+                  "resource_level": 135.12225853127615,
+                  "sustainability_score": 0.2702445170625523
+                },
+                {
+                  "round": 6,
+                  "p1_action": 30,
+                  "p2_action": 25,
+                  "p1_reward": 24.0,
+                  "p2_reward": 25.0,
+                  "resource_level": 93.57887971267031,
+                  "sustainability_score": 0.18715775942534063
+                },
+                {
+                  "round": 7,
+                  "p1_action": 15,
+                  "p2_action": 25,
+                  "p1_reward": 12.0,
+                  "p2_reward": 25.0,
+                  "resource_level": 63.14637711469846,
+                  "sustainability_score": 0.12629275422939693
+                },
+                {
+                  "round": 8,
+                  "p1_action": 12,
+                  "p2_action": 25,
+                  "p1_reward": 9.600000000000001,
+                  "p2_reward": 25.0,
+                  "resource_level": 31.10219932314854,
+                  "sustainability_score": 0.06220439864629708
+                }
+              ],
+              "total_score": 422.6,
+              "avg_score": 46.955555555555556,
+              "survival_rate": 0.6,
+              "final_resource_level": 31.10219932314854,
+              "avg_sustainability": 0.3776192931088909,
+              "resource_depleted": true,
+              "sustainability_score": 0.3776192931088909
+            }
+          },
+          "resource_pasture": {
+            "score": 1689.7488212111768,
+            "avg_score": 112.64992141407846,
+            "metrics": {
+              "rounds_data": [
+                {
+                  "round": 0,
+                  "p1_action": 25,
+                  "p2_action": 15,
+                  "p1_reward": 125.0,
+                  "p2_reward": 75.0,
+                  "resource_level": 972.6464,
+                  "sustainability_score": 0.9726464
+                },
+                {
+                  "round": 1,
+                  "p1_action": 20,
+                  "p2_action": 15,
+                  "p1_reward": 97.26464,
+                  "p2_reward": 72.94848,
+                  "resource_level": 952.489836845056,
+                  "sustainability_score": 0.952489836845056
+                },
+                {
+                  "round": 2,
+                  "p1_action": 30,
+                  "p2_action": 15,
+                  "p1_reward": 142.8734755267584,
+                  "p2_reward": 71.4367377633792,
+                  "resource_level": 927.9702692157728,
+                  "sustainability_score": 0.9279702692157727
+                },
+                {
+                  "round": 3,
+                  "p1_action": 25,
+                  "p2_action": 15,
+                  "p1_reward": 115.9962836519716,
+                  "p2_reward": 69.59777019118296,
+                  "resource_level": 909.9514011003511,
+                  "sustainability_score": 0.9099514011003511
+                },
+                {
+                  "round": 4,
+                  "p1_action": 25,
+                  "p2_action": 15,
+                  "p1_reward": 113.74392513754388,
+                  "p2_reward": 68.24635508252634,
+                  "resource_level": 894.0243118612933,
+                  "sustainability_score": 0.8940243118612933
+                },
+                {
+                  "round": 5,
+                  "p1_action": 30,
+                  "p2_action": 15,
+                  "p1_reward": 134.10364677919398,
+                  "p2_reward": 67.05182338959699,
+                  "resource_level": 876.2971006787304,
+                  "sustainability_score": 0.8762971006787305
+                },
+                {
+                  "round": 6,
+                  "p1_action": 25,
+                  "p2_action": 15,
+                  "p1_reward": 109.5371375848413,
+                  "p2_reward": 65.72228255090478,
+                  "resource_level": 864.0160266483634,
+                  "sustainability_score": 0.8640160266483634
+                },
+                {
+                  "round": 7,
+                  "p1_action": 25,
+                  "p2_action": 15,
+                  "p1_reward": 108.00200333104543,
+                  "p2_reward": 64.80120199862725,
+                  "resource_level": 852.9808303556584,
+                  "sustainability_score": 0.8529808303556584
+                },
+                {
+                  "round": 8,
+                  "p1_action": 30,
+                  "p2_action": 15,
+                  "p1_reward": 127.94712455334876,
+                  "p2_reward": 63.97356227667438,
+                  "resource_level": 839.409303333714,
+                  "sustainability_score": 0.839409303333714
+                },
+                {
+                  "round": 9,
+                  "p1_action": 20,
+                  "p2_action": 15,
+                  "p1_reward": 83.9409303333714,
+                  "p2_reward": 62.95569775002855,
+                  "resource_level": 834.3629402032956,
+                  "sustainability_score": 0.8343629402032956
+                },
+                {
+                  "round": 10,
+                  "p1_action": 30,
+                  "p2_action": 15,
+                  "p1_reward": 125.15444103049434,
+                  "p2_reward": 62.57722051524717,
+                  "resource_level": 822.5098735902823,
+                  "sustainability_score": 0.8225098735902823
+                },
+                {
+                  "round": 11,
+                  "p1_action": 25,
+                  "p2_action": 15,
+                  "p1_reward": 102.81373419878528,
+                  "p2_reward": 61.68824051927117,
+                  "resource_level": 815.350475592266,
+                  "sustainability_score": 0.815350475592266
+                },
+                {
+                  "round": 12,
+                  "p1_action": 25,
+                  "p2_action": 15,
+                  "p1_reward": 101.91880944903325,
+                  "p2_reward": 61.151285669419956,
+                  "resource_level": 808.8073517895115,
+                  "sustainability_score": 0.8088073517895115
+                },
+                {
+                  "round": 13,
+                  "p1_action": 25,
+                  "p2_action": 15,
+                  "p1_reward": 101.10091897368893,
+                  "p2_reward": 60.66055138421336,
+                  "resource_level": 802.8140052888032,
+                  "sustainability_score": 0.8028140052888032
+                },
+                {
+                  "round": 14,
+                  "p1_action": 25,
+                  "p2_action": 15,
+                  "p1_reward": 100.3517506611004,
+                  "p2_reward": 60.21105039666024,
+                  "resource_level": 797.3129714697186,
+                  "sustainability_score": 0.7973129714697186
+                }
+              ],
+              "total_score": 1689.7488212111768,
+              "avg_score": 112.64992141407846,
+              "survival_rate": 1.0,
+              "final_resource_level": 797.3129714697186,
+              "avg_sustainability": 0.8647295398648545,
+              "resource_depleted": false,
+              "sustainability_score": 0.8647295398648545
+            }
+          },
+          "resource_pollution": {
+            "score": 256.0,
+            "avg_score": 85.33333333333333,
+            "metrics": {
+              "rounds_data": [
+                {
+                  "round": 0,
+                  "p1_action": 10,
+                  "p2_action": 6,
+                  "p1_reward": 80.0,
+                  "p2_reward": 72.0,
+                  "resource_level": 72.624,
+                  "sustainability_score": 0.72624
+                },
+                {
+                  "round": 1,
+                  "p1_action": 8,
+                  "p2_action": 6,
+                  "p1_reward": 96.0,
+                  "p2_reward": 72.0,
+                  "resource_level": 46.615301376,
+                  "sustainability_score": 0.46615301375999996
+                },
+                {
+                  "round": 2,
+                  "p1_action": 8,
+                  "p2_action": 6,
+                  "p1_reward": 80.0,
+                  "p2_reward": 60.0,
+                  "resource_level": 18.961830821319307,
+                  "sustainability_score": 0.18961830821319306
+                }
+              ],
+              "total_score": 256.0,
+              "avg_score": 85.33333333333333,
+              "survival_rate": 0.2,
+              "final_resource_level": 18.961830821319307,
+              "avg_sustainability": 0.46067044065773094,
+              "resource_depleted": true,
+              "sustainability_score": 0.46067044065773094
+            }
+          }
+        },
+        "avg_score": 401.22480353519614
+      }
+    },
+    "game_summary": {
+      "prisoners_dilemma": {
+        "experiments": 4,
+        "models": {
+          "Llama-3.3-70B": 30,
+          "DeepSeek-R1": 30,
+          "Llama-2-70B": 30,
+          "GPT-4": 30
+        },
+        "avg_score": 30.0,
+        "total_score": 120
+      },
+      "battle_of_sexes": {
+        "experiments": 4,
+        "models": {
+          "Llama-3.3-70B": 10,
+          "DeepSeek-R1": 20,
+          "Llama-2-70B": 20,
+          "GPT-4": 8
+        },
+        "avg_score": 14.5,
+        "total_score": 58
+      },
+      "colonel_blotto": {
+        "experiments": 4,
+        "models": {
+          "Llama-3.3-70B": 1,
+          "DeepSeek-R1": 0,
+          "Llama-2-70B": 0,
+          "GPT-4": 1
+        },
+        "avg_score": 0.5,
+        "total_score": 2
+      },
+      "resource_fishing": {
+        "experiments": 4,
+        "models": {
+          "Llama-3.3-70B": 120.0,
+          "DeepSeek-R1": 0,
+          "Llama-2-70B": 0,
+          "GPT-4": 422.6
+        },
+        "avg_score": 135.65,
+        "total_score": 542.6
+      },
+      "resource_pasture": {
+        "experiments": 4,
+        "models": {
+          "Llama-3.3-70B": 1365.7406169244116,
+          "DeepSeek-R1": 250.0,
+          "Llama-2-70B": 0,
+          "GPT-4": 1689.7488212111768
+        },
+        "avg_score": 826.3723595338971,
+        "total_score": 3305.4894381355884
+      },
+      "resource_pollution": {
+        "experiments": 4,
+        "models": {
+          "Llama-3.3-70B": 316.0,
+          "DeepSeek-R1": 0,
+          "Llama-2-70B": 0,
+          "GPT-4": 256.0
+        },
+        "avg_score": 143.0,
+        "total_score": 572.0
+      }
+    }
+  },
+  "visualization_files": [
+    "evaluation_results/performance_heatmap_20250721_154823.png",
+    "evaluation_results/model_comparison_20250721_154823.png",
+    "evaluation_results/game_analysis_20250721_154823.png",
+    "evaluation_results/resource_sustainability_20250721_154823.png"
+  ],
+  "results_table_shape": [
+    24,
+    20
+  ],
+  "total_experiments": 24,
+  "successful_experiments": 24
+}

@@ -1,4 +1,3 @@
-# configs/tasks/multiAgentGameTheory.yaml
 id: multiAgentGameTheory
 name: Multi-Agent Game Theory Coordination
 description: |-
